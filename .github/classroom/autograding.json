@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW13/hw13-3-tax-calculate-pointer.cpp",
+      "run": "./a.out",
+      "input": "Omar\r\n12750\r\nAlice\r\n15900\r\nMax\r\n19860\r\n-1\r\n",
+      "output": "All salary per month: 48,510.00 Bath\r\nAll salary per year: 582,120.00 Bath\r\nTax (7% per year) : 40,748.40 Bath\r\nMost tax in company : Max (16,682.40 Bath per year)",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
